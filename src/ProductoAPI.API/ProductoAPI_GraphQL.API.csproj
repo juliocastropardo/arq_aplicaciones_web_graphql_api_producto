@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductoAPI.Application\ProductoAPI_GraphQL.Application.csproj" />
+    <ProjectReference Include="..\ProductoAPI.Infrastructure\ProductoAPI_GraphQL.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.9.7" />
+    <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.9.7" />
+  </ItemGroup>
+
+</Project>
+
