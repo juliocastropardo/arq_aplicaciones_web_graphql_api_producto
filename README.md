@@ -136,14 +136,8 @@ mutation {
 }
 ```
 
-## 🎬 Video Explicativo
-
-Para ver el guion del video explicativo de la integración de GraphQL, consulta el archivo `GUION_VIDEO_GRAPHQL.md`.
-
 ## 📚 Documentación
 
-- **Instrucciones GraphQL**: Ver `INSTRUCCIONES_GRAPHQL.md`
-- **Guion del Video**: Ver `GUION_VIDEO_GRAPHQL.md`
 - **Documentación HotChocolate**: https://chillicream.com/docs/hotchocolate
 
 ## 🏗️ Estructura del Proyecto
